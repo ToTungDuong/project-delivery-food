@@ -1,0 +1,9 @@
+.category_item {
+  background: #fde4e4;
+  padding: 30px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.category_item:hover {
+  transform: translateY(-15px);
+}
