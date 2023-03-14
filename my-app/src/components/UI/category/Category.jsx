@@ -28,7 +28,7 @@ const Category = () => {
     <Container>
       <Row>
         {categoryData.map((item, index) => (
-          <Col lg="3" md="4">
+          <Col lg="3" md="4" sm="6" xs="6" className="mb-3">
             <div className="category_item d-flex align-items-center gap-3">
               <div className="category_img d-flex align-items-center gap-3 ">
                 <img src={item.imgUrl} alt="" />
